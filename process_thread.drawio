@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T14:44:53.362Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="LukCNAtB0K11t6ZMTVzO" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T14:47:49.629Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xH5Vw6AET1D2b6-AMDrl" version="15.6.8" type="github">
   <diagram id="YjP2luyD3A1gga2x-_5z" name="Page-1">
     <mxGraphModel dx="3009" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,6 +94,33 @@
         </mxCell>
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-39" value="Instruction pointer" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-599" y="-450" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-42" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-40" target="qBSy8Zu0NFItvnrf-ppq-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-49" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-40" target="qBSy8Zu0NFItvnrf-ppq-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-40" value="Process scheduling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="-690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-44" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-41" target="qBSy8Zu0NFItvnrf-ppq-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-41" target="qBSy8Zu0NFItvnrf-ppq-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-41" value="Objectives" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="-490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-43" value="Some processes running at all times, to maximize CPU utilization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-290" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-46" value="Switch the CPU bw processes so that users can interact with each program&amp;nbsp; while running" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="-290" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-48" value="Process states" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="-690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

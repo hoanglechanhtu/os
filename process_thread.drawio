@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T15:22:50.060Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="p-2exbExexms3wmf1flO" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T15:26:54.014Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="CAUs9DyG7bqmYrwtRjbF" version="15.6.8" type="github">
   <diagram id="YjP2luyD3A1gga2x-_5z" name="Page-1">
     <mxGraphModel dx="3009" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -441,6 +441,45 @@
         </mxCell>
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-154" value="Each one will have timeslice of CPU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1670" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-158" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-156" target="qBSy8Zu0NFItvnrf-ppq-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-164" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-156" target="qBSy8Zu0NFItvnrf-ppq-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-156" value="Lottery Scheduling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-160" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-157" target="qBSy8Zu0NFItvnrf-ppq-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-157" value="Give each jobs number of ticket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-159" value="On each time slice, randomly pick one winning ticket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-166" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-163" target="qBSy8Zu0NFItvnrf-ppq-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-169" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-163" target="qBSy8Zu0NFItvnrf-ppq-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-163" value="How to get approximate SRTF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-165" value="shortest job with more ticket, long job get fewer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-171" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-168" target="qBSy8Zu0NFItvnrf-ppq-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-168" value="avoid starvation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-170" value="each job have atleast one ticket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

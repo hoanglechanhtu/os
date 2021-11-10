@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T15:17:42.778Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="dIKaEE5vlcz8TkrtwR_9" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T15:19:48.684Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="yYvyqf5mqnnZdEf_WEts" version="15.6.8" type="github">
   <diagram id="YjP2luyD3A1gga2x-_5z" name="Page-1">
     <mxGraphModel dx="3009" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -334,6 +334,9 @@
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-135" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-118" target="qBSy8Zu0NFItvnrf-ppq-134">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-144" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-118" target="qBSy8Zu0NFItvnrf-ppq-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-118" value="multi level feedback&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="440" y="450" width="120" height="60" as="geometry" />
         </mxCell>
@@ -408,6 +411,21 @@
         </mxCell>
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-141" value="if not, push one level(or top)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="640" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-146" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-143" target="qBSy8Zu0NFItvnrf-ppq-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-149" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-143" target="qBSy8Zu0NFItvnrf-ppq-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-143" value="multi level feedback&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-145" value="CPU bound jobs drop like a rock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-148" value="IO bound jobs stay on top" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

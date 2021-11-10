@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T14:51:40.723Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="OTyibjrRq59hqhrSG04E" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T15:01:03.232Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xqPr5-E9kx5InnYurbN8" version="15.6.8" type="github">
   <diagram id="YjP2luyD3A1gga2x-_5z" name="Page-1">
     <mxGraphModel dx="3009" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,6 +101,9 @@
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-49" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-40" target="qBSy8Zu0NFItvnrf-ppq-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-61" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-40" target="qBSy8Zu0NFItvnrf-ppq-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-40" value="Process scheduling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
           <mxGeometry x="-150" y="-690" width="120" height="60" as="geometry" />
         </mxCell>
@@ -169,6 +172,57 @@
             <mxPoint x="-430" y="-910" as="sourcePoint" />
             <mxPoint x="-308" y="-921" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-63" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-60" target="qBSy8Zu0NFItvnrf-ppq-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-60" value="Algorithms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-65" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-62" target="qBSy8Zu0NFItvnrf-ppq-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-67" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-62" target="qBSy8Zu0NFItvnrf-ppq-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-62" target="qBSy8Zu0NFItvnrf-ppq-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-71" value="Each process gets small unit of CPU" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-62" target="qBSy8Zu0NFItvnrf-ppq-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-62" value="First come, first serve&lt;br&gt;FIFO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-64" value="Keep CPU until thread blocks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-66" value="Simple" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-68" value="Short jobs get stuck behind long ones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-75" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-70" target="qBSy8Zu0NFItvnrf-ppq-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-70" target="qBSy8Zu0NFItvnrf-ppq-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-70" value="Round robin" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-74" value="q large -&amp;gt; FIFO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-79" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-76" target="qBSy8Zu0NFItvnrf-ppq-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-76" value="q small -&amp;gt; interleaved" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-78" value="if q too small, we will get alot of context switch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T15:01:03.232Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xqPr5-E9kx5InnYurbN8" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T15:15:26.153Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="a-vGFac1OlXWnHBjFxSS" version="15.6.8" type="github">
   <diagram id="YjP2luyD3A1gga2x-_5z" name="Page-1">
     <mxGraphModel dx="3009" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,9 +185,6 @@
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-67" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-62" target="qBSy8Zu0NFItvnrf-ppq-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qBSy8Zu0NFItvnrf-ppq-69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-62" target="qBSy8Zu0NFItvnrf-ppq-68">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-71" value="Each process gets small unit of CPU" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-62" target="qBSy8Zu0NFItvnrf-ppq-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -197,16 +194,28 @@
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-64" value="Keep CPU until thread blocks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="-870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qBSy8Zu0NFItvnrf-ppq-66" value="Simple" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-83" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-66" target="qBSy8Zu0NFItvnrf-ppq-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-84" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-66" target="qBSy8Zu0NFItvnrf-ppq-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-66" value="Ad/dis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="660" y="-1000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qBSy8Zu0NFItvnrf-ppq-68" value="Short jobs get stuck behind long ones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-1100" width="120" height="60" as="geometry" />
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-68" value="Short jobs get stuck behind long ones" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="860" y="-1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-75" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-70" target="qBSy8Zu0NFItvnrf-ppq-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-70" target="qBSy8Zu0NFItvnrf-ppq-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-81" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-70" target="qBSy8Zu0NFItvnrf-ppq-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-92" value="what if we know the future, the length of jobs" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-70" target="qBSy8Zu0NFItvnrf-ppq-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-70" value="Round robin" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
@@ -223,6 +232,140 @@
         </mxCell>
         <mxCell id="qBSy8Zu0NFItvnrf-ppq-78" value="if q too small, we will get alot of context switch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="-570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-86" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-80" target="qBSy8Zu0NFItvnrf-ppq-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-88" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-80" target="qBSy8Zu0NFItvnrf-ppq-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-80" value="Ad/dis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-82" value="Simple" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="860" y="-1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-90" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-85" target="qBSy8Zu0NFItvnrf-ppq-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-85" value="longer completion time" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="880" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-87" value="cache state must be shared" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="880" y="-320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-89" value="for jobs with same length" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-94" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-91" target="qBSy8Zu0NFItvnrf-ppq-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-96" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-91" target="qBSy8Zu0NFItvnrf-ppq-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-115" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-91" target="qBSy8Zu0NFItvnrf-ppq-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-119" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-91" target="qBSy8Zu0NFItvnrf-ppq-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-120" value="changing policy based on past behavior" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qBSy8Zu0NFItvnrf-ppq-119">
+          <mxGeometry x="-0.0558" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-91" value="We can schedule shortest job first" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-101" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-93" target="qBSy8Zu0NFItvnrf-ppq-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-104" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-93" target="qBSy8Zu0NFItvnrf-ppq-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-93" value="Shortest job first" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-102" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-95" target="qBSy8Zu0NFItvnrf-ppq-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-105" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-95" target="qBSy8Zu0NFItvnrf-ppq-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-95" value="Shortest remaining time first" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-100" value="Jobs with same length -&amp;gt; FCFS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-107" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-103" target="qBSy8Zu0NFItvnrf-ppq-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-103" value="Varying length" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="-180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-106" value="Short job not get stuck behind long ones" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="-180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-112" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-110" target="qBSy8Zu0NFItvnrf-ppq-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-114" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-110" target="qBSy8Zu0NFItvnrf-ppq-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-117" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-110" target="qBSy8Zu0NFItvnrf-ppq-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-110" value="Dis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-111" value="Can get starvation if alot of small jobs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="920" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-113" value="Long jobs never get run" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="920" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-116" value="How can u predict the future?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="920" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-118" value="multi level feedback&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-125" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-121" target="qBSy8Zu0NFItvnrf-ppq-122">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="510" />
+              <mxPoint x="1260" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-121" value="quantum = 8" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="480" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-126" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-122" target="qBSy8Zu0NFItvnrf-ppq-123">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="630" />
+              <mxPoint x="630" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-122" value="quantum = 16" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="600" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-127" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qBSy8Zu0NFItvnrf-ppq-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-123" value="FCFS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="740" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBSy8Zu0NFItvnrf-ppq-124" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="qBSy8Zu0NFItvnrf-ppq-121">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="510" as="sourcePoint" />
+            <mxPoint x="580" y="560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
